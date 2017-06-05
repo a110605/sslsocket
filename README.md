@@ -1,4 +1,4 @@
-SLSocket
+# SSLSocket
 
 This is a proof of concept example using OpenSSL library to verfiy the certificate and key in server side. 
 
@@ -17,22 +17,22 @@ or download the latest OpenSSL package at [http://www.openssl.org/source/](http:
 
 ## Compile Source Code
  
-  ```
-    git clone https://github.com/a110605/sslsocket.git
-     ```
-       Type **make** under sslsocket directory.
-         
-	   It will automatically build the executable binary sslserver && sslclient
+ ```
+  git clone https://github.com/a110605/sslsocket.git
+ ```
+  Type **make** under sslsocket directory.
+  
+  It will automatically build the executable binary sslserver && sslclient
 
 
 ## Run
 Run the Server side on one terminal
 
 	sudo ./ssl-server <portnum>
-	 
-	 Run the Client side on the other terminal
+ 
+Run the Client side on the other terminal
 
-	 	./ssl-client <hostname> <portnum>
+	./ssl-client <hostname> <portnum>
 
 ## Contact
 If there are any questions, please send me a email. 
