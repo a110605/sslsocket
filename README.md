@@ -35,8 +35,6 @@ Run the Client side on the other terminal
 	./ssl-client <hostname> <portnum>
 
 ## Contact
-If there are any questions, please send me a email. 
-
-[a1106052000@gmail.com](a1106052000@gmail.com)
+Please contact me via the mail [a1106052000@gmail.com](a1106052000@gmail.com)
 
 Thanks.
