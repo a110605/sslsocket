@@ -2,7 +2,7 @@
 
 This is a proof of concept example using OpenSSL library to verfiy the certificate and key in server side. 
 
-Both client and server will use **AES-256-SHA encryption alogrithm ** to create SSL socket connections.
+Both client and server will use ** AES-256-SHA encryption alogrithm ** to create SSL socket connections.
 The server will echo the message which received from client and send it back to client side.
 
 ## Build OpenSSL Environment
