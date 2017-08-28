@@ -9,7 +9,7 @@ The server will echo the message which received from client and send it back to 
 On ubuntu/debian, type 
 
 ```	
-sudo apt-get install openssl && apt-get install libssl-dev
+  $[sudo] apt-get install openssl && apt-get install libssl-dev -y
 ```
 
 or download the latest OpenSSL package at [http://www.openssl.org/source/](http://www.openssl.org/source/)
@@ -18,14 +18,14 @@ or download the latest OpenSSL package at [http://www.openssl.org/source/](http:
 ## Compile Source Code
  
  ```
-  git clone https://github.com/a110605/sslsocket.git
+  $ git clone https://github.com/a110605/sslsocket.git
+  $ cd sslsocket 
+  $ make
  ```
-  Type **make** under sslsocket directory.
-  
   It will automatically build the executable binary sslserver && sslclient
 
 
-## Run
+## Quick Run
 Run the Server side on one terminal
 
 	sudo ./ssl-server <portnum>
