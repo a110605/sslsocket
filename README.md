@@ -5,6 +5,10 @@ This is a proof of concept example using OpenSSL library to verfiy the certifica
 Both client and server will use **AES-256-SHA encryption alogrithm** to create SSL socket connections.
 The server will echo the message which received from client and send it back to client side.
 
+![image](https://github.com/a110605/sslsocket/blob/master/picture/1.png)
+
+![image](https://github.com/a110605/sslsocket/blob/master/picture/2.png)
+
 ## Build OpenSSL Environment
 On ubuntu/debian, type 
 
