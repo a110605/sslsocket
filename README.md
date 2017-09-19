@@ -6,9 +6,7 @@ Both client and server use **AES-256-SHA encryption alogrithm** to create SSL so
 
 The server will echo the message which received from client and send it back to client.
 
-<img src="https://github.com/a110605/sslsocket/blob/master/picture/1.png" height="330" width="500">
-
-<img src="https://github.com/a110605/sslsocket/blob/master/picture/2.png" height="330" width="500">
+<img src="https://github.com/a110605/sslsocket/blob/master/picture/3.gif" height="330" width="500">
 
 
 ## Build OpenSSL Environment
